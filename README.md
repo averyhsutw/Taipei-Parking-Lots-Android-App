@@ -14,11 +14,13 @@
 ### Features
 
 - Show all the parking lots in Taipei via Google Map interface, which is got from [DATA.GOV.TW/資料集/臺北市停車場資訊](https://data.gov.tw/dataset/128435)
-  <img src="https://i.imgur.com/xg79ONQ.png" style= "zoom:70%;"/>
+<br/>  
+<img src="https://i.imgur.com/xg79ONQ.png" style= "zoom:50%;"/>
 
 
 - Tap on a tag, the information window of the parking lot will pop up.
-  <img src="https://i.imgur.com/q5gTOL4.png" style= "zoom:70%;"/>
+<br/>  
+  <img src="https://i.imgur.com/q5gTOL4.png" style= "zoom:50%;"/>
 
 
 - Register and login, or you can login as anonymous guest.
