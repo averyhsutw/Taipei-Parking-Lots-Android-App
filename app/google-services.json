@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "409531851295",
+    "project_id": "parking-lot-taipei",
+    "storage_bucket": "parking-lot-taipei.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409531851295:android:dd4b565ac33ada040d2b2a",
+        "android_client_info": {
+          "package_name": "com.example.taipeiparkinglots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409531851295-8dabsaug8ves3ds98ms2fltk34uak42e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK6ndXrp3HVaAms5CBLlLkboiapLdqXcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409531851295-8dabsaug8ves3ds98ms2fltk34uak42e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
