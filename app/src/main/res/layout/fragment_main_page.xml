@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_title"
+        android:text="@string/title"
+        android:textSize="18sp"
+        android:textColor="@color/gray_500"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/person_msg_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/person_msg"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/gray_500"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_title"/>
+
+    <TextView
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Sign Out"
+        android:textColor="@color/gray_500"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_title"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/map_fragment"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/person_msg_textView"
+        app:layout_constraintBottom_toTopOf="@id/reload_button"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/reload_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reload_button"
+        android:textSize="11sp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/add_favorite_button"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/add_favorite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="加入常用"
+        android:textSize="11sp"
+        app:icon="@drawable/ic_not_interested"
+        android:backgroundTint="@color/gray_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/reload_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
