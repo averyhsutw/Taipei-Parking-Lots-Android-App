@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">TaipeiParkingLots</string>
+    <string name="app_name">Taipei Parking Lot</string>
+    <string name="title">台北市停車場地圖</string>
+    <string name="person_msg">%s 您好！</string>
+    <string name="reload_button">reload</string>
+    <string name="goto_sign_up">前往註冊</string>
+    <string name="use_anonymous_identity">以訪客身份進行</string>
+    <string name="guest_sign_out">訪客登出</string>
+    <string name="sign_out">登出</string>
+    <string name="car_available">剩餘車位：%s/%d</string>
+    <string name="account_hint">信箱 Email</string>
+    <string name="password_hint">密碼 Password</string>
+    <string name="login_button">登入</string>
+    <string name="not_yet_signed_up">還沒有建立帳號？</string>
+    <string name="or_text">或是</string>
+    <string name="password_again_hint">再次輸入密碼 Enter Password Again</string>
+    <string name="sign_up_button">註冊</string>
+    <string name="not_yet_login_msg">您尚未登入</string>
+    <string name="guest_signed_out_msg">訪客已登出</string>
+    <string name="signed_out_msg">您已登出</string>
+    <string name="guest_login_success_msg">訪客登入成功</string>
+    <string name="guest_login_failure_msg">訪客登入失敗</string>
+    <string name="login_success_msg">登入成功</string>
+    <string name="login_failure_msg">登入失敗</string>
+    <string name="plz_enter_email_msg">請輸入電子郵件與密碼</string>
+    <string name="sign_up_success_msg">註冊成功</string>
+    <string name="sign_up_failure_msg">註冊失敗</string>
+    <string name="password_different_msg">兩次輸入密碼不同，請重新輸入！</string>
 </resources>
